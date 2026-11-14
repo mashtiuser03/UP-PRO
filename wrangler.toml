@@ -6,4 +6,4 @@ workers_dev = true
 [[d1_databases]]
 binding = "DB"
 database_name = "up_pro_master_db"
-database_id = "REPLACE_WITH_MASTER_D1_UUID"
+database_id = "459f4327-d828-4d1b-b3be-603ace09cbc8"
