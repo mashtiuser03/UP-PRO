@@ -594,7 +594,7 @@ async function executeZeroTouchProvisioning(db, env, chatId, sessionData) {
 
   // 1. Assign sequential number n -> UP-PRO{n} & up_pro_{n}_db
   const n = await getNextBotNumber(db);
-  const workerName = `UP-PRO${n}`;
+  const workerName = `up-pro${n}`;
   const d1Name = `up_pro_${n}_db`;
 
   // 2. Create D1 Database on Account 1
